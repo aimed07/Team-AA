@@ -1,0 +1,535 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0.1 (Build 21A559)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62281
+Successfully changed project path to: /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification
+/Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4855981568] Host "[IP] 10.28.126.250 [Port] 0 [Flags] 2 [Guid] 3118271447 [EditorId] 3118271447 [Version] 1048832 [Id] OSXEditor(0,MB-{{serial-number}}) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4855981568] Host "[IP] 10.28.126.250 [Port] 0 [Flags] 2 [Guid] 3118271447 [EditorId] 3118271447 [Version] 1048832 [Id] OSXEditor(0,MB-{{serial-number}}) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 99.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) HD Graphics 530 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 450 (high power)
+1: Intel(R) HD Graphics 530 (low power)
+Using device AMD Radeon Pro 450 (high power)
+Initializing Metal device caps: AMD Radeon Pro 450
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56627
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001675 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1557ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1258ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (480ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (88.4 KB). Loaded Objects now: 3522.
+Memory consumption went from 104.7 MB to 104.7 MB.
+Total: 3.514623 ms (FindLiveObjects: 0.297254 ms CreateObjectMapping: 0.219472 ms MarkObjects: 2.866468 ms  DeleteObjects: 0.130436 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91322.975605 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.863680 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002970 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1473ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (423ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (64.5 KB). Loaded Objects now: 3532.
+Memory consumption went from 109.6 MB to 109.5 MB.
+Total: 5.278941 ms (FindLiveObjects: 0.353685 ms CreateObjectMapping: 0.447229 ms MarkObjects: 4.205067 ms  DeleteObjects: 0.271481 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1473.219921 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.361889 seconds  code(4) message(Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.asset in SourceAssetDB has modification time of '2019-04-16T22:57:56Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.asset in SourceAssetDB has modification time of '2019-04-16T22:57:56Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 26.773616 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.090586 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 8.251944 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.079909 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 176.561557 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.475465 seconds  code(4) message(Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf - drop shadow.mat in SourceAssetDB has modification time of '2019-03-06T08:10:14Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf - drop shadow.mat in SourceAssetDB has modification time of '2019-03-06T08:10:14Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 200.894029 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.101766 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 5.424155 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.069864 seconds  code(4) message(Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.asset in SourceAssetDB has modification time of '2019-04-16T22:57:56Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.asset in SourceAssetDB has modification time of '2019-04-16T22:57:56Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 92.806158 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 2.070840 seconds  code(4) message(Build asset version error: assets/textmesh pro/fonts/liberationsans.ttf in SourceAssetDB has modification time of '2017-01-11T12:37:10Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/textmesh pro/fonts/liberationsans.ttf in SourceAssetDB has modification time of '2017-01-11T12:37:10Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 7.551114 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.068355 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 10.103180 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.072207 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.759431 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.071061 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2.859825 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.066087 seconds  code(4) message(Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.asset in SourceAssetDB has modification time of '2019-04-16T22:57:56Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/textmesh pro/resources/fonts & materials/liberationsans sdf.asset in SourceAssetDB has modification time of '2019-04-16T22:57:56Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 271.504228 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.105005 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002478 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1485ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.1 KB). Loaded Objects now: 3578.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 4.496100 ms (FindLiveObjects: 0.416488 ms CreateObjectMapping: 0.379651 ms MarkObjects: 3.578661 ms  DeleteObjects: 0.119964 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 839.652781 seconds.
+  path: 
+  artifactKey: Guid(890580084c7324e6c9ff1a4d7f9999ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(890580084c7324e6c9ff1a4d7f9999ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000086 seconds  code(3) message(Unknown asset with GUID '890580084c7324e6c9ff1a4d7f9999ec')
+  ERROR: Unknown asset with GUID '890580084c7324e6c9ff1a4d7f9999ec'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.132498 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2618.190311 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.064102 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002352 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1984ms)
+		BeginReloadAssembly (438ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (195ms)
+		EndReloadAssembly (1367ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.0 KB). Loaded Objects now: 3581.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 5.084757 ms (FindLiveObjects: 0.329667 ms CreateObjectMapping: 0.223764 ms MarkObjects: 4.314062 ms  DeleteObjects: 0.216107 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2350.304577 seconds.
+  path: 
+  artifactKey: Guid(890580084c7324e6c9ff1a4d7f9999ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(890580084c7324e6c9ff1a4d7f9999ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000389 seconds  code(3) message(Unknown asset with GUID '890580084c7324e6c9ff1a4d7f9999ec')
+  ERROR: Unknown asset with GUID '890580084c7324e6c9ff1a4d7f9999ec'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002608 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mbstudent/Documents/GitHub/Team-AA/Flag Identification/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1638ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1310ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (585ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.0 KB). Loaded Objects now: 3584.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 5.028356 ms (FindLiveObjects: 0.356673 ms CreateObjectMapping: 0.323968 ms MarkObjects: 4.172829 ms  DeleteObjects: 0.173662 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.182462 seconds.
+  path: 
+  artifactKey: Guid(890580084c7324e6c9ff1a4d7f9999ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(890580084c7324e6c9ff1a4d7f9999ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000071 seconds  code(3) message(Unknown asset with GUID '890580084c7324e6c9ff1a4d7f9999ec')
+  ERROR: Unknown asset with GUID '890580084c7324e6c9ff1a4d7f9999ec'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Main Menu _3.png
+  artifactKey: Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu _3.png using Guid(d494ab344ade74087bf66caa3daed701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.179426 seconds  code(4) message(Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z')
+  ERROR: Build asset version error: assets/main menu _3.png in SourceAssetDB has modification time of '2023-04-25T22:29:44Z' while content on disk has modification time of '2023-04-25T22:44:29Z'
