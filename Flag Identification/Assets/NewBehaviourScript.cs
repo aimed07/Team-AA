@@ -14,6 +14,6 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame   
         public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Chile");
     }
 }
