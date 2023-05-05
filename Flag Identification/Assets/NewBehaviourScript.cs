@@ -7,7 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
         public void EndGame()
     {
-        Application.Quit();
+        //Application.Quit();
         Debug.Log("Game Closed"); 
     }
 

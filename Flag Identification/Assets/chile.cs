@@ -1,19 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagment;
-
-public class Level1-2 : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class chile: MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        public void
+        Cursor.lockState = CursorLockMode.None;
     }
-
-    // Update is called once per frame
-    void Update()
+    public void GoToScene(string sceneName)
     {
-        
+        SceneManager.LoadScene(sceneName);
     }
 }
+
